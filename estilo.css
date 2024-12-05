@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -6,66 +6,61 @@ body{
     color: #333;
 }
 
-header{
+header {
     text-align: center;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-header img{
+header img {
     max-width: 80%;
-    /* max-width: 700px; */
 }
 
-h1{
+
+h1 {
     color: #553382;
     font-size: 36px;
 }
 
-header p{ 
+
+header p {
     font-size: 18px;
     margin-top: 10px;
 }
 
-.main-index{
+.main-index {
     display: grid;
-    /* auto - 1fr (fração) - px - % */
-    grid-template-columns: auto auto auto; 
+    grid-template-columns: auto auto auto;
     padding: 20px;
-    justify-content: center; /* Alinhamento horizontal */
+    justify-content: center;
     background-color: #fff;
-    gap: 20px; /*Espaco entre elementos*/
+    gap: 20px;
 }
 
-.main-index a{
-    transition: transform 0.3s /* tempo de transicao*/
-    /*foi aplicado a propriedade de transição com
-    uma duração de 0.3 segundos (0.3s) em sua animação de transformação.
-    */
+.main-index a {
+    transition: transform 0.3s;
 }
 
-.main-index a:hover{
-    transform: scale(1.05); /* escala - zoom */
-    /* Os elementos irão aumentar em 5% ao passar o mouse sobre eles.*/
+.main-index a:hover {
+    transform: scale(1.05);
 }
 
-.main-videos h1{
+.main-videos h1 {
     text-align: center;
     font-size: 36px;
 }
 
-.main-videos video{
+.main-videos iframe {
     margin: auto;
     display: block;
-    max-width: 700px;
 }
 
-.main-videos a{
+.main-videos a {
     display: block;
     text-align: center;
     text-decoration: none;
-
     margin-top: 20px;
+
     font-size: 20px;
 }
